@@ -1,0 +1,138 @@
+body {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#heading{
+  color:rgb(77, 8, 109);
+  font-size: 50px;
+  margin: 0;
+}
+
+#add-btn {
+  height: 48px;
+  width: 80px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  background-color: rgb(190, 234, 248);
+  margin-left: -10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(77, 8, 109);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#todo-input {
+  border-width : 3px;
+  border-color:rgb(190, 234, 248);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 40px;
+  width: 400px;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+  background-color:rgb(234, 250, 255);
+  width :400px;
+  height : 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#middle-div {
+  flex: 1;
+}
+
+#buttons-div{
+  margin-left: 20px;
+}
+
+button {
+  background-color:rgb(190, 234, 248);
+  color:rgb(77, 8, 109);
+  height: 30px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+#todo-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyRight {
+  margin-top: 400px;
+}
+
+#home-btn, #about-btn{
+  background-color: white;
+  display: inline-block;
+}
+
+#home-btn, #about-btn{
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  margin-top :10px;
+  margin-left : 10px;
+  margin-right: 10px;
+}
+
+#big-div {
+  position: relative;
+}
+
+#small-div{
+  position: absolute;
+  top : 0;
+  left: 0
+  
+}
+
+#nav-bar {
+  margin-bottom: 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+#pipeline {
+  font-size : 30px;
+  display: inline-block;
+  position :absolute;
+  margin: 0;
+}
+
+#small-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  position :relative;
+}
+
+#about-text {
+  position : absolute;
+  top :50px;
+  left : 100px;
+  right: 100px;
+}
+
+#nav-bar {
+  display : block;
+}
+
+h1 {
+  display : block;
+}
