@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
 }
 
 #heading{
@@ -29,7 +29,8 @@ body {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   height: 40px;
-  width: 400px;
+  width: calc(80% - 80px);
+  max-width: 500px;
   font-size: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -37,7 +38,8 @@ body {
 li {
   list-style-type: none;
   background-color:rgb(234, 250, 255);
-  width :400px;
+  width: 90%;
+  max-width :400px;
   height : 50px;
   display: flex;
   justify-content: center;
@@ -86,17 +88,6 @@ button {
   margin-right: 10px;
 }
 
-#big-div {
-  position: relative;
-}
-
-#small-div{
-  position: absolute;
-  top : 0;
-  left: 0
-  
-}
-
 #nav-bar {
   margin-bottom: 50px;
 }
@@ -108,8 +99,8 @@ ul {
 #pipeline {
   font-size : 30px;
   display: inline-block;
-  position :absolute;
-  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 0px;
 }
 
 #small-div {
@@ -118,9 +109,6 @@ ul {
   align-items: center;
 }
 
-body {
-  position :relative;
-}
 
 #about-text {
   position : absolute;
@@ -131,8 +119,15 @@ body {
 
 #nav-bar {
   display : block;
+  background-color: red;
 }
 
 h1 {
   display : block;
+}
+
+#small-div {
+  position: absolute;
+  left :0;
+  top: 0;
 }
